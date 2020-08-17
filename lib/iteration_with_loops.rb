@@ -8,10 +8,10 @@ def find_even_values(src)
           while col < src[row].length do 
             if src[row][col] % 2 == 0
                p src[row][col]
-          
+            end
             col+= 1 
           end
-          
+           row+= 1
       end 
      
       
